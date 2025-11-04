@@ -1,6 +1,6 @@
 {
-  "short_name": "Admin Portal",
-  "name": "Mepo Admin Portal",
+  "short_name": "Pokemon",
+  "name": "Pokemon Registry",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,4 +1,4 @@
-import Pokeball from "_shared/presentation/components/pokeball-loading";
+import Pokeball from "_shared/presentation/components/pokeball-loading.component";
 import {
   HambergerMenu,
   LogoutCurve,

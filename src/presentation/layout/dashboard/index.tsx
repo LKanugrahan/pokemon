@@ -11,7 +11,7 @@ const DashboardLayout: React.FC = (): JSX.Element => {
   return (
     <>
       <Helmet>
-        <title>{t("Mepo | Admin Portal")}</title>
+        <title>{t("Pokemon Registry")}</title>
       </Helmet>
       <div className="flex">
         <Container className="w-full">

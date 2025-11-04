@@ -13,7 +13,8 @@ import { saveTokenAuth } from "infrastructure/store/auth";
 const useLoginForm = () => {
   const dispatch = useAppDispatch();
   const { data: dataUsers } = useGetUsersQuery();
-  console.log(dataUsers);
+  console.log(dataUsers?.map((val) => val.email));
+  console.log("Password123!");
   const [login, { isLoading }] = useLoginMutation();
   const schema = yup
     .object({

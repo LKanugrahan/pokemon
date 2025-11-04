@@ -26,7 +26,7 @@ const reducers = combineReducers({
 });
 
 const persistConfig = {
-  key: "mepostore",
+  key: "pokemonstore",
   storage,
   whitelist: ["auth", "users","pokemon"],
 };
